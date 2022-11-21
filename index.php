@@ -4,7 +4,7 @@
 // 2. get all payment methods for this shopper
 // Change Currency depends on your inquiry
 
-$url = "https://checkout-test.adyen.com/v69/paymentMethods";
+$url = "https://ea2064596629378a-PaymentsMadeEasy-checkout-live.adyenpayments.com/checkout/v69/paymentMethods";
 
 $payload = array(
   "merchantAccount" => "PME_ECOM_JP",
