@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://checkout-test.adyen.com/v66/payments/details";
+$url = "https://ea2064596629378a-PaymentsMadeEasy-checkout-live.adyenpayments.com/checkout/v69/payments/details";
 
 $payments_data = $_POST;
 
@@ -26,7 +26,7 @@ $params = [
 
 
 $curl_http_header = array(
-    "X-API-Key: AQEyhmfxL4PJahZCw0m/n3Q5qf3VaY9UCJ1+XWZe9W27jmlZiv4PD4jhfNMofnLr2K5i8/0QwV1bDb7kfNy1WIxIIkxgBw==-lUKXT9IQ5GZ6d6RH4nnuOG4Bu//eJZxvoAOknIIddv4=-<anpTLkW{]ZgGy,7",
+    "X-API-Key: AQEyhmfxJovIYhRKw0m/n3Q5qf3VeIpUAJZETHZ7x3yuu2dYh5cnvT60e4XlLQ+yKZra3zQQwV1bDb7kfNy1WIxIIkxgBw==-S39eP06SsENH4R51dJB5yBqeyOmH4j6ELiJp/Ga97nw=-d(^TtKg6z&m(5DHK",
     "Content-Type: application/json"
 );
 
