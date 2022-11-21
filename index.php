@@ -183,7 +183,7 @@ p:before {
         {
           //alert('PAYMENT UNSUCCESSFUL!');
           //window.location.href = 'http://127.0.0.1:8080/return.php';
-          window.location.href = 'http://127.0.0.1:8080/showResults.php';
+          window.location.href = '/showResults.php';
 
         }
         /*
