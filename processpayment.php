@@ -24,7 +24,7 @@ $additional_data = [
     ],
     "threeDS2RequestData"=> [
       "threeDSCompInd"=> "Y",
-      "threeDSRequestorChallengeInd"=> "02"
+      "threeDSRequestorChallengeInd"=> "04"
 
     ],
     //'origin' => 'http://127.0.0.1:8080',
