@@ -24,7 +24,7 @@ $additional_data = [
     ],
     "threeDS2RequestData"=> [
       "threeDSCompInd"=> "Y",
-      "threeDSRequestorChallengeInd"=> "04"
+      'threeDSRequestorChallengeInd' => $payments_data['indicator'],
 
     ],
     //'origin' => 'http://127.0.0.1:8080',
@@ -68,6 +68,8 @@ $additional_data = [
       "javaEnabled" => true
     ]*/
 ];
+
+unset($payments_data['indicator']);
 
 $final_payment_data = array_merge($payments_data, $additional_data);
 
