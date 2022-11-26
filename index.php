@@ -245,6 +245,7 @@ p:before {
               //'05': ['100%', '100%']
         },
         onSubmit: (state,dropin)=>{
+          state.data.indicator = document.getElementById('flag').options[document.getElementById('flag').selectedIndex].text;
             makePayment(state.data)
                 .then(response => {
                     var responseData = response.action;
@@ -310,7 +311,39 @@ p:before {
         const dropin = checkout.create('dropin').mount('#kenjis-dropin');
         console.log("Be carefull when using onload event to trigger the async function.");
       }
+          <h1>3DS details</h1>
+          threeDSRequestorChallengeInd
+          <form name="form1">
+         <select name="flag" id="flag">
+             <option value="01">01</option>
+             <option value="02">02</option>
+             <option value="03">03</option>
+             <option value="04">04</option>
+             <option value="05">05</option>
+             <option value="06">06</option>
+             <option value="07">07</option>
+         </select>
+        </form>
+        <script>
+        const dsflag = document.form1.flag;
+        const num = dsflag.selectedIndex;
+        const flagvalue = dsflag.options[num].value;
+        var flagvalue3;
+        var strValue;
 
-    </script>
+
+        console.log(flagvalue);
+
+        function inputChange(event){
+            console.log(event.currentTarget.value);
+            flagvalue3 = event.currentTarget.value;
+            console.log(flagvalue3);
+        }
+
+        var flagvalue2 = document.getElementById('flag');
+        flagvalue2.addEventListener('change', inputChange);
+
+
+      </script>
   </body>
 </html>
