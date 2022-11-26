@@ -305,12 +305,14 @@ p:before {
             },
         }
       }
+     
 
       async function initialLoad(){
         const checkout = await AdyenCheckout(configuration);
         const dropin = checkout.create('dropin').mount('#kenjis-dropin');
         console.log("Be carefull when using onload event to trigger the async function.");
       }
+      </script>
           <h1>3DS details</h1>
           threeDSRequestorChallengeInd
           <form name="form1">
