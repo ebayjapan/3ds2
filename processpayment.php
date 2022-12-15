@@ -27,6 +27,9 @@ $additional_data = [
       'threeDSRequestorChallengeInd' => $payments_data['indicator'],
 
     ],
+    "installments"=> [
+        "value"=> $payments_data['installments']['value']
+    ],
     //'origin' => 'http://127.0.0.1:8080',
     'origin' => 'https://bcmccomp.herokuapp.com/',
     'billingAddress' => '123 Eastgate, San Diego, USA, 92121',
