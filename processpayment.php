@@ -29,7 +29,8 @@ $additional_data = [
     ],
     "installments"=> [
         "value"=> $payments_data['installments']['value'],
-        "plan"=> $payments_data['installments']['plan']
+        "plan"=> $payments_data['installments']['plan'],
+        "plan"=>"regular"
     ],
     //'origin' => 'http://127.0.0.1:8080',
     'origin' => 'https://bcmccomp.herokuapp.com/',
