@@ -118,13 +118,13 @@ curl_close($curl);
         $additional_data = [
         //'reference' => 'KenjiW001',
         'reference' => date("Ymt").'playground_v69_'.time(),
-        'merchantAccount' => 'KenjiW',
+        'merchantAccount' => 'PME_ECOM_JP',
         //'countryCode' => 'DK',
         'amount' => [
-            'value' => 1000,
-            'currency' => 'EUR'
+            'value' => 100,
+            'currency' => 'JPY'
         ],
-        'returnUrl' => 'http://127.0.0.1:8080/return.php',
+        'returnUrl' => '/return.php',
         'channel' => 'Web',
         'additionalData' => [
             //'allow3DS2' => 'false'
@@ -140,7 +140,7 @@ curl_close($curl);
     
     
         
-        'origin' => 'http://127.0.0.1:8080',
+        'origin' => 'https://bcmccomp.herokuapp.com/',
         'billingAddress' => '123 Eastgate, San Diego, USA, 92121',
         //'paymentMethod' => $payments_data->PaymentMethod,
         /*
