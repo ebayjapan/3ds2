@@ -13,7 +13,7 @@ if (is_numeric($numInstallment)){
 
 $additional_data = [
     //'reference' => 'KenjiW001',
-    'reference' => date("Ymt").'livetransaction_PaymentsAPI_v69_'.time(),
+    'reference' => date("Ymt").'liveTx_v69_wtInstallments'.time(),
     'merchantAccount' => 'PME_ECOM_JP',
     //'countryCode' => 'DK',
     'amount' => [
@@ -117,7 +117,7 @@ curl_close($curl);
 
         $additional_data = [
         //'reference' => 'KenjiW001',
-        'reference' => date("Ymt").'playground_v69_'.time(),
+        'reference' => date("Ymt").'liveTx_v69_'.time(),
         'merchantAccount' => 'PME_ECOM_JP',
         //'countryCode' => 'DK',
         'amount' => [
