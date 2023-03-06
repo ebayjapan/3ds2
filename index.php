@@ -11,8 +11,8 @@ $payload = array(
   "countryCode" => "JP",
   "channel" => "web",
   "amount" => [
-    "value" => 1000,
-    "currency" => "JPY",
+    "value" => 100,
+    "currency" => "SGD",
     ],
     "shopperReference" => "Shopper_002" //enable it when need to show tokanization
 );
