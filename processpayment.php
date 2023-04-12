@@ -12,8 +12,8 @@ $additional_data = [
     'merchantAccount' => 'PME_ECOM_JP',
     //'countryCode' => 'DK',
     'amount' => [
-        'value' => 100,
-        'currency' => 'JPY'
+        'value' => 10000,
+        'currency' => 'KRW'
     ],
     'returnUrl' => '/return.php',
     'channel' => 'Web',
