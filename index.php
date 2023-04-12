@@ -8,11 +8,11 @@ $url = "https://ea2064596629378a-PaymentsMadeEasy-checkout-live.adyenpayments.co
 
 $payload = array(
   "merchantAccount" => "PME_ECOM_JP",
-  "countryCode" => "JP",
+  "countryCode" => "KR",
   "channel" => "web",
   "amount" => [
-    "value" => 100,
-    "currency" => "SGD",
+    "value" => 10000,
+    "currency" => "KRW",
     ],
     "shopperReference" => "Shopper_002" //enable it when need to show tokanization
 );
