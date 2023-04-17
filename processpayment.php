@@ -24,7 +24,7 @@ $additional_data = [
     'channel' => 'Web',
     'additionalData' => [
         //'allow3DS2' => 'false'
-        'allow3DS2' => 'true'
+        'allow3DS2' => 'false'
 
     ],
     "threeDS2RequestData"=> [
