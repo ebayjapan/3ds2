@@ -236,6 +236,7 @@ p:before {
         holderNameRequired: false,//added on Aug30
         enableStoreDetails: false,//added on Aug30
         billingAddressRequired: false,//added on Aug30
+        maskSecurityCode: true,
         threeDS2: {
           challengeWindowSize: '04'
           // '02': ['390px', '400px'] -  The default window size
