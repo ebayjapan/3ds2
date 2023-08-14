@@ -291,6 +291,7 @@ p:before {
                 enableStoreDetails: true,
                 name: 'Credit or debit card',
                 billingAddressRequired: false,
+                maskSecurityCode: true,
                 //to show installment options
                 installmentOptions: {
                   card: {
